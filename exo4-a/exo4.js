@@ -2,15 +2,15 @@
 // boucle do while dans une boucle for, et en utilisant
 // 3 variables. [difficile] 
 
-let numero = 6
-let esNumeroPrimo = true;
+let numero = 4;
+ let esNumeroPrimo = true;
 
 for(let i =2; i < numero; i++){
-    if( numero % i === 0){
-        esNumeroPrimo = numero;
-    }
-  
     
+    
+    if( numero % i === 0){
+        esNumeroPrimo = false;
+    }      
 }
 
 if(esNumeroPrimo){

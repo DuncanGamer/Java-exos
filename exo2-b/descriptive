@@ -1,0 +1,10 @@
+Exercice 2 : soit le document html suivant : [facile]
+    1. Ecrire la fonction changer_style qui permet de modifier le 
+style du paragraphe en cliquant sur le bouton par : 
+un texte de couleur blanche.
+un background rouge.
+une bordure noire pointillée de 2px.
+un retrait de 5px.
+    2. Définir les propriétés précédentes dans une classe "active" 
+et modifier la fonction changer_style de telle façon qu'elle ajoute
+la classe "active" au paragraphe.

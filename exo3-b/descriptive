@@ -1,0 +1,6 @@
+Exercice 3 : Créer un chronomètre composé d'un afficheur et 3 boutons :
+un bouton "start" pour lancer le chronomètre , un bouton "stop" pour l’arrêter et un bouton "reset" pour le remettre à zéro. [moyen]
+    1. Créer une fonction "start" qui appelle d'une manière répétitive la fonction update_chrono via la fonction setInterval avec une cadence de 100 ms.
+    2. Créer une fonction "update_chrono()" qui permet d’incrémenter le nombre de millisecondes , secondes , minutes , et des heures.
+    3. Créer une fonction "stop" qui arrête le traitement de setInterval.
+    4 Créer une fonction "reset" qui remet les valeurs et l'affichage à 0.

@@ -1,0 +1,8 @@
+body{
+    background-color: darkgrey;
+}
+
+.btn{
+    cursor: pointer;
+    box-shadow: black 1px 1px 6px;
+}

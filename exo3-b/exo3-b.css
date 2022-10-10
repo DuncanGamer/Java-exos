@@ -1,0 +1,30 @@
+*{
+    transition: all 0.3s;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 300%;
+    color: white;
+    background: linear-gradient(white, skyblue);
+}
+
+.marco{
+    background-color: #333;
+    padding: 15px;
+}
+
+.botones{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.btn{
+    border: white 1px solid;
+    display:inline-block;
+    margin:5px;
+    font-size: 60%;
+    cursor: pointer;
+}
